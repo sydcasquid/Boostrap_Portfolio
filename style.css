@@ -1,0 +1,62 @@
+body { 
+    background-color:white;
+}
+
+/* footer { 
+    bottom: 0;
+} */
+.button-container .btn {
+    width: 150px;
+}
+
+.main { 
+    height: 800px;
+}
+
+.btn { 
+    background-color: #fc5d9d;
+    border: 3px solid white; 
+    border-radius: 10px;
+    color: white; 
+    font-weight: bold;
+}
+
+.btn-primary:focus { 
+    background-color: white;
+    color:#fc5d9d;
+    border-color: #fc5d9d;
+}
+
+.btn-primary:hover { 
+    background-color: #af416d;
+    border-color: #f9c596;
+}
+    
+.card { 
+    border: 3px solid #fc5d9d;
+    background-color: beige;
+}
+.card-header { 
+    font-size: larger;
+    font-weight: bold;
+    background-color:beige;
+    /* border: 2px solid #fc5d9d */
+}
+
+.card-title { 
+    font-size: smaller;
+    font-weight: lighter;
+    text-decoration: underline;
+    background-color:#f9c596;
+}
+
+.card-subtitle {
+    font-size: large;
+    font-weight: 450;
+    margin-bottom: 10px;
+    background-color: ghostwhite;
+}
+
+.card-text { 
+    font-weight:350;
+}
